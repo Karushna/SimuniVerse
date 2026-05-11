@@ -195,3 +195,24 @@ If ScienceLab 3D has helped you learn or teaches you something new, please consi
   <sub>Made with ❤️ for science learners everywhere 🌍</sub>
 </div>
 
+---
+
+## More Open Source Projects
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [StealthHumanizer](https://github.com/rudra496/StealthHumanizer) | ![Stars](https://img.shields.io/github/stars/rudra496/StealthHumanizer?style=social) | Free AI text humanizer — 13 providers, no login |
+| [EdgeBrain](https://github.com/rudra496/EdgeBrain) | ![Stars](https://img.shields.io/github/stars/rudra496/EdgeBrain?style=social) | Edge AI inference — sub-100ms, no cloud |
+| [DevRoadmaps](https://github.com/rudra496/devroadmaps) | ![Stars](https://img.shields.io/github/stars/rudra496/devroadmaps?style=social) | 17 career paths, 1700+ free resources |
+| [CodeVista](https://github.com/rudra496/codevista) | ![Stars](https://img.shields.io/github/stars/rudra496/codevista?style=social) | AI code analysis & security scanner |
+| [Nexus Agent](https://github.com/rudra496/nexus-agent) | ![Stars](https://img.shields.io/github/stars/rudra496/nexus-agent?style=social) | Self-evolving local AI agent framework |
+| [MindWell](https://github.com/rudra496/mindwell) | ![Stars](https://img.shields.io/github/stars/rudra496/mindwell?style=social) | Free mental health support platform |
+| [SightlineAI](https://github.com/rudra496/sightlineai) | ![Stars](https://img.shields.io/github/stars/rudra496/sightlineai?style=social) | AI smart glasses for the blind |
+
+---
+
+<div align="center">
+
+**[⭐ Star this repo](../../stargazers) · [🍴 Fork it](../../fork) · [👤 Follow @rudra496](https://github.com/rudra496)**
+
+</div>
