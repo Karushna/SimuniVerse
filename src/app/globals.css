@@ -23,13 +23,13 @@
 
 /* Light mode */
 .light {
-  --bg-primary: #f8f9fc;
-  --bg-secondary: #eef0f6;
+  --bg-primary: #f0f9ff;
+  --bg-secondary: #e0f2fe;
   --bg-card: #ffffff;
-  --text-primary: #111827;
-  --text-secondary: #4b5563;
-  --glow-blue: 0 0 20px rgba(79, 143, 255, 0.1);
-  --glow-purple: 0 0 20px rgba(139, 92, 246, 0.1);
+  --text-primary: #1e3a5f;
+  --text-secondary: #4a7fa5;
+  --glow-blue: 0 0 20px rgba(56, 189, 248, 0.15);
+  --glow-purple: 0 0 20px rgba(34, 211, 238, 0.15);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -57,13 +57,13 @@ body {
 
 /* Selection */
 ::selection {
-  background: rgba(139, 92, 246, 0.3);
+  background: rgba(56, 189, 248, 0.25);
   color: inherit;
 }
 
 /* Focus ring */
 *:focus-visible {
-  outline: 2px solid var(--accent-purple);
+  outline: 2px solid #38bdf8;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -76,7 +76,7 @@ body {
   background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-purple);
+  background: #38bdf8;
   border-radius: 4px;
 }
 

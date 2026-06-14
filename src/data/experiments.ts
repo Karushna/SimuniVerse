@@ -19,7 +19,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore simple harmonic motion by controlling pendulum length, mass, and initial angle. Observe how gravity and tension create periodic oscillation.",
     icon: "🔄",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["SHM", "Gravity", "Period", "Amplitude"],
   },
   {
@@ -30,7 +30,7 @@ export const experiments: Experiment[] = [
     description:
       "Launch projectiles at different angles and velocities. Visualize parabolic trajectories and understand range, height, and time of flight.",
     icon: "🎯",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Kinematics", "Trajectory", "Range", "Velocity"],
   },
   {
@@ -41,7 +41,7 @@ export const experiments: Experiment[] = [
     description:
       "Witness wave-particle duality. Fire photons through two slits and observe the interference pattern that proves quantum mechanics.",
     icon: "🌊",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Quantum", "Wave-Particle Duality", "Interference", "Photons"],
   },
   {
@@ -52,7 +52,7 @@ export const experiments: Experiment[] = [
     description:
       "Create two wave sources and watch constructive and destructive interference patterns form in real-time 3D space.",
     icon: "〰️",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Waves", "Superposition", "Interference", "Frequency"],
   },
   {
@@ -63,7 +63,7 @@ export const experiments: Experiment[] = [
     description:
       "Place charges in 3D space and visualize electric field lines, potential surfaces, and force vectors interactively.",
     icon: "⚡",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Electric Field", "Coulomb's Law", "Potential", "Vectors"],
   },
   {
@@ -74,7 +74,7 @@ export const experiments: Experiment[] = [
     description:
       "Attach masses to springs with adjustable stiffness and damping. Explore Hooke's law, resonance, and energy conservation.",
     icon: "🔔",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Hooke's Law", "Resonance", "Energy", "Damping"],
   },
   {
@@ -85,7 +85,7 @@ export const experiments: Experiment[] = [
     description:
       "Simulate planetary orbits by adjusting mass, velocity, and distance. Observe elliptical, circular, and escape trajectories.",
     icon: "🪐",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Gravity", "Orbits", "Kepler's Laws", "Escape Velocity"],
   },
   {
@@ -96,7 +96,7 @@ export const experiments: Experiment[] = [
     description:
       "Move a sound source and observer in 3D. Watch wavefronts compress and expand as frequency shifts in real-time.",
     icon: "🔊",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Sound", "Frequency Shift", "Wavefronts", "Relativity"],
   },
   {
@@ -107,7 +107,7 @@ export const experiments: Experiment[] = [
     description:
       "Shoot light rays through different media. Control angle of incidence, refractive index, and see Snell's law in action.",
     icon: "💡",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Optics", "Snell's Law", "Total Internal Reflection", "Prism"],
   },
   {
@@ -118,7 +118,7 @@ export const experiments: Experiment[] = [
     description:
       "Build circuits with resistors, batteries, and LEDs. Adjust voltage and resistance to see current flow with animated electrons.",
     icon: "🔋",
-    color: "#4f8fff",
+    color: "#3b82f6",
     topics: ["Electricity", "Ohm's Law", "Resistance", "Current"],
   },
 
@@ -131,7 +131,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore atoms in 3D — add/remove protons, neutrons, and electrons. See how elements change and electron shells fill up.",
     icon: "⚛️",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Atoms", "Electron Shells", "Protons", "Periodic Table"],
   },
   {
@@ -142,7 +142,7 @@ export const experiments: Experiment[] = [
     description:
       "Visualize ionic, covalent, and metallic bonds in 3D. Watch atoms share or transfer electrons to form molecules.",
     icon: "🔗",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Ionic", "Covalent", "Metallic", "Electron Sharing"],
   },
   {
@@ -153,7 +153,7 @@ export const experiments: Experiment[] = [
     description:
       "Run electrolysis experiments on water and other solutions. See bubbles form at electrodes and understand redox reactions.",
     icon: "🧪",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Redox", "Electrodes", "Anode", "Cathode"],
   },
   {
@@ -164,7 +164,7 @@ export const experiments: Experiment[] = [
     description:
       "Perform virtual titration. Control the burette drop-by-drop and watch the pH indicator change color at the equivalence point.",
     icon: "💧",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["pH", "Acid", "Base", "Equivalence Point"],
   },
   {
@@ -175,7 +175,7 @@ export const experiments: Experiment[] = [
     description:
       "Compress and heat gas molecules in a 3D container. See Boyle's, Charles's, and Gay-Lussac's laws come alive with bouncing particles.",
     icon: "🌡️",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Boyle's Law", "Charles's Law", "Ideal Gas", "Pressure"],
   },
   {
@@ -186,7 +186,7 @@ export const experiments: Experiment[] = [
     description:
       "Mix acids and bases and watch neutralization occur. See pH changes, salt formation, and energy release in 3D.",
     icon: "⚗️",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Neutralization", "pH Scale", "Salts", "Exothermic"],
   },
   {
@@ -197,7 +197,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore 3D crystal structures — FCC, BCC, HCP, diamond cubic. Rotate, zoom, and understand unit cells and packing efficiency.",
     icon: "💎",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Crystals", "FCC", "BCC", "Unit Cell"],
   },
   {
@@ -208,7 +208,7 @@ export const experiments: Experiment[] = [
     description:
       "Watch particles diffuse through a membrane or between two gases. Control temperature and concentration gradients.",
     icon: "🌫️",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Diffusion", "Osmosis", "Concentration", "Brownian Motion"],
   },
   {
@@ -219,7 +219,7 @@ export const experiments: Experiment[] = [
     description:
       "Visualize energy changes during chemical reactions. See bonds break and form with energy diagrams and temperature effects.",
     icon: "🔥",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Enthalpy", "Activation Energy", "Bonds", "Energy Diagrams"],
   },
   {
@@ -230,7 +230,7 @@ export const experiments: Experiment[] = [
     description:
       "Interactive 3D periodic table. Explore atomic radius, electronegativity, ionization energy trends with animated visualizations.",
     icon: "📋",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     topics: ["Atomic Radius", "Electronegativity", "Ionization", "Trends"],
   },
 
@@ -243,7 +243,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore a detailed 3D animal cell. Click on organelles to learn about nucleus, mitochondria, ER, Golgi, and more.",
     icon: "🔬",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Organelles", "Nucleus", "Mitochondria", "Membrane"],
   },
   {
@@ -254,7 +254,7 @@ export const experiments: Experiment[] = [
     description:
       "Watch the double helix unzip and replicate step-by-step. See helicase, polymerase, and primase in action.",
     icon: "🧬",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["DNA", "Helicase", "Polymerase", "Replication Fork"],
   },
   {
@@ -265,7 +265,7 @@ export const experiments: Experiment[] = [
     description:
       "Follow transcription and translation in 3D. Watch mRNA leave the nucleus and ribosomes build proteins codon by codon.",
     icon: "⚙️",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Transcription", "Translation", "mRNA", "Ribosomes"],
   },
   {
@@ -276,7 +276,7 @@ export const experiments: Experiment[] = [
     description:
       "Enter a chloroplast and follow light reactions and Calvin cycle. Control light intensity and CO2 levels.",
     icon: "🌿",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Chloroplast", "Light Reactions", "Calvin Cycle", "Glucose"],
   },
   {
@@ -287,7 +287,7 @@ export const experiments: Experiment[] = [
     description:
       "Trace glucose through glycolysis, Krebs cycle, and electron transport chain. See ATP production in 3D mitochondria.",
     icon: "⚡",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Glycolysis", "Krebs Cycle", "ATP", "Mitochondria"],
   },
   {
@@ -298,7 +298,7 @@ export const experiments: Experiment[] = [
     description:
       "Watch cell division in 3D. Step through prophase, metaphase, anaphase, telophase. Compare mitosis vs meiosis side-by-side.",
     icon: "🫧",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Mitosis", "Meiosis", "Chromosomes", "Cell Division"],
   },
   {
@@ -309,7 +309,7 @@ export const experiments: Experiment[] = [
     description:
       "Simulate evolution! Control environment factors and watch populations adapt over generations with trait variations.",
     icon: "🦎",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Evolution", "Adaptation", "Genetics", "Fitness"],
   },
   {
@@ -320,7 +320,7 @@ export const experiments: Experiment[] = [
     description:
       "Trace an action potential along a neuron in 3D. Watch neurotransmitters cross the synaptic cleft.",
     icon: "🧠",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Neurons", "Action Potential", "Synapse", "Neurotransmitters"],
   },
   {
@@ -331,7 +331,7 @@ export const experiments: Experiment[] = [
     description:
       "Build and explore food webs in 3D. Add/remove species and watch population dynamics change in real-time.",
     icon: "🌿",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Food Web", "Trophic Levels", "Population", "Biodiversity"],
   },
   {
@@ -342,7 +342,7 @@ export const experiments: Experiment[] = [
     description:
       "Watch the immune system fight a virus! See macrophages, T-cells, and antibodies in a 3D blood vessel environment.",
     icon: "🛡️",
-    color: "#06d6a0",
+    color: "#10b981",
     topics: ["Antibodies", "T-Cells", "Macrophages", "Antigens"],
   },
 
@@ -355,7 +355,7 @@ export const experiments: Experiment[] = [
     description:
       "Build any waveform by adding sine waves. Watch the frequency spectrum update in real-time as you add or remove harmonics.",
     icon: "📊",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Frequency", "Waveform", "Harmonics", "Signal Processing"],
   },
   {
@@ -366,7 +366,7 @@ export const experiments: Experiment[] = [
     description:
       "Watch the Fibonacci sequence build the golden spiral in 3D. Explore its appearance in nature, art, and architecture.",
     icon: "🐌",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Fibonacci", "Golden Ratio", "Spiral", "Phi"],
   },
   {
@@ -377,7 +377,7 @@ export const experiments: Experiment[] = [
     description:
       "Interact with Platonic solids and Archimedean solids in 3D. Explore faces, edges, vertices, and Euler's formula.",
     icon: "📐",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Platonic Solids", "Euler's Formula", "Symmetry", "Polyhedra"],
   },
   {
@@ -388,7 +388,7 @@ export const experiments: Experiment[] = [
     description:
       "Visualize derivatives and integrals in 3D. Watch tangent lines, area under curves, and Riemann sums animate.",
     icon: "📈",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Derivatives", "Integrals", "Limits", "Riemann Sums"],
   },
   {
@@ -399,7 +399,7 @@ export const experiments: Experiment[] = [
     description:
       "Dive into the infinite Mandelbrot set in 3D. Zoom into regions and watch fractal detail emerge at every scale.",
     icon: "🌀",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Fractals", "Complex Numbers", "Iteration", "Infinity"],
   },
   {
@@ -410,7 +410,7 @@ export const experiments: Experiment[] = [
     description:
       "Generate random data and watch distributions form. Compare Normal, Binomial, Poisson, and Uniform distributions.",
     icon: "🎰",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Normal", "Binomial", "Mean", "Standard Deviation"],
   },
   {
@@ -421,7 +421,7 @@ export const experiments: Experiment[] = [
     description:
       "Visualize vectors, matrices, and transformations in 3D. Apply rotations, scaling, and shearing to see linear maps in action.",
     icon: "🔢",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Vectors", "Matrices", "Eigenvalues", "Transformations"],
   },
   {
@@ -432,7 +432,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore sine, cosine, and tangent on a 3D unit circle. Adjust angles and see how all trig functions relate.",
     icon: "📏",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Sin", "Cos", "Tan", "Unit Circle"],
   },
   {
@@ -443,7 +443,7 @@ export const experiments: Experiment[] = [
     description:
       "Visualize complex numbers on the Argand plane. Perform arithmetic operations and see geometric interpretations.",
     icon: "♾️",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Complex Numbers", "Argand Plane", "Modulus", "Argument"],
   },
   {
@@ -454,7 +454,7 @@ export const experiments: Experiment[] = [
     description:
       "Explore mathematical surfaces — Möbius strip, Klein bottle, torus, and more in interactive 3D.",
     icon: "🍩",
-    color: "#ff6b35",
+    color: "#f97316",
     topics: ["Topology", "Möbius Strip", "Klein Bottle", "Manifolds"],
   },
 ];
@@ -464,28 +464,28 @@ export const categories = [
     id: "physics" as const,
     name: "Physics",
     icon: "⚛️",
-    color: "#4f8fff",
+    color: "#3b82f6",
     description: "Forces, motion, waves, and energy",
   },
   {
     id: "chemistry" as const,
     name: "Chemistry",
     icon: "🧪",
-    color: "#8b5cf6",
+    color: "#f59e0b",
     description: "Atoms, molecules, and reactions",
   },
   {
     id: "biology" as const,
     name: "Biology",
     icon: "🧬",
-    color: "#06d6a0",
+    color: "#10b981",
     description: "Life, cells, and ecosystems",
   },
   {
     id: "math" as const,
     name: "Mathematics",
     icon: "📐",
-    color: "#ff6b35",
+    color: "#f97316",
     description: "Numbers, shapes, and patterns",
   },
 ];
