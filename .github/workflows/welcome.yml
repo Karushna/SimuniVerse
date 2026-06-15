@@ -14,5 +14,5 @@ jobs:
       - uses: actions/first-interaction@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "👋 Welcome to ScienceLab 3D! Thanks for your first issue."
-          pr-message: "👋 Welcome to ScienceLab 3D! Thanks for your first PR."
+          issue-message: "👋 Welcome to Simuni Verse! Thanks for your first issue."
+          pr-message: "👋 Welcome to Simuni Verse! Thanks for your first PR."

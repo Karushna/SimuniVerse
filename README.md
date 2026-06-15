@@ -1,12 +1,12 @@
-# 🔬 ScienceLab 3D
+# 🔬 Simuni Verse
 
 <div align="center">
 
 **The world's most interactive 3D science learning platform — free, open-source, and browser-based.**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-science--lab--3d.vercel.app-4f8fff?style=for-the-badge)](https://science-lab-3d.vercel.app)
-[![GitHub Stars](https://img.shields.io/github/stars/rudra496/sciencelab3d?style=for-the-badge&color=yellow)](https://github.com/rudra496/sciencelab3d/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/rudra496/sciencelab3d?style=for-the-badge&color=blue)](https://github.com/rudra496/sciencelab3d/forks)
+[![GitHub Stars](https://img.shields.io/github/stars/rudra496/SimuniVerse?style=for-the-badge&color=yellow)](https://github.com/rudra496/SimuniVerse/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/rudra496/SimuniVerse?style=for-the-badge&color=blue)](https://github.com/rudra496/SimuniVerse/forks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
@@ -23,9 +23,9 @@ Experience the fully deployed **interactive 3D science lab** — featuring virtu
 
 ---
 
-## 🌟 What is ScienceLab 3D?
+## 🌟 What is Simuni Verse?
 
-**ScienceLab 3D** is a fully interactive, browser-based 3D science simulation platform covering **Physics**, **Chemistry**, **Biology**, and **Mathematics**. With **40+ experiments**, real-time controls, and stunning 3D visualizations powered by Three.js, it makes learning science intuitive, engaging, and fun — no downloads, no accounts required.
+**Simuni Verse** is a fully interactive, browser-based 3D science simulation platform covering **Physics**, **Chemistry**, **Biology**, and **Mathematics**. With **40+ experiments**, real-time controls, and stunning 3D visualizations powered by Three.js, it makes learning science intuitive, engaging, and fun — no downloads, no accounts required.
 
 > 🎯 **Perfect for** students, teachers, self-learners, and anyone curious about science!
 
@@ -114,8 +114,8 @@ Experience the fully deployed **interactive 3D science lab** — featuring virtu
 
 ```bash
 # Clone the repository
-git clone https://github.com/rudra496/sciencelab3d.git
-cd sciencelab3d
+git clone https://github.com/rudra496/SimuniVerse.git
+cd SimuniVerse
 
 # Install dependencies
 npm install
@@ -185,9 +185,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ## ⭐ Support the Project
 
-If ScienceLab 3D has helped you learn or teaches you something new, please consider giving it a ⭐ star on GitHub — it helps the project grow and reach more students!
+If Simuni Verse has helped you learn or teaches you something new, please consider giving it a ⭐ star on GitHub — it helps the project grow and reach more students!
 
-[![Star on GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudra496/sciencelab3d)
+[![Star on GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudra496/SimuniVerse)
 
 ---
 

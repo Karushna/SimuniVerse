@@ -11,10 +11,10 @@ export const viewport: Viewport = {
 };
 
 const SITE_URL = "https://sciencelab-two.vercel.app";
-const SITE_NAME = "ScienceLab 3D";
-const SITE_TITLE = "ScienceLab 3D — Interactive STEM Education | 40+ Virtual Science Experiments";
+const SITE_NAME = "Simuni Verse";
+const SITE_TITLE = "Simuni Verse — Interactive STEM Education | 40+ Virtual Science Experiments";
 const SITE_DESCRIPTION =
-  "ScienceLab 3D — Free interactive STEM education platform with 40+ virtual experiments in physics, chemistry & biology. 3D visualizations, real-time data analysis. Learn science by doing.";
+  "Simuni Verse — Free interactive STEM education platform with 40+ virtual experiments in physics, chemistry & biology. 3D visualizations, real-time data analysis. Learn science by doing.";
 
 export const metadata: Metadata = {
   title: {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     "biology visualization",
     "math explorer",
     "Rudra Sarker",
-    "sciencelab3d",
+    "simuniverse",
   ],
   authors: [{ name: "Rudra Sarker", url: "https://rudra496.github.io/site" }],
   creator: "Rudra Sarker",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ScienceLab 3D — Interactive 3D Science Experiments",
+        alt: "Simuni Verse — Interactive 3D Science Experiments",
       },
     ],
   },

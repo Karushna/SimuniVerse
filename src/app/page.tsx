@@ -45,7 +45,7 @@ function Navbar({ theme, toggleTheme }: { theme: string; toggleTheme: () => void
           href="/"
           className="text-lg font-bold bg-linear-to-r from-pink-400 via-rose-400 to-fuchsia-400 bg-clip-text text-transparent"
         >
-          ScienceLab 3D
+      Simuni Verse
         </a>
         <div className="hidden md:flex gap-2">
           {categories.map((cat) => (
@@ -104,12 +104,10 @@ function HeroSection() {
           className="text-5xl md:text-7xl font-black mb-6 bg-linear-to-r from-pink-400 via-rose-400 to-fuchsia-400 bg-clip-text text-transparent leading-tight"
           style={{ filter: "drop-shadow(0 0 30px rgba(236,72,153,0.3))" }}
         >
-          ScienceLab 3D
+          Simuni Verse
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Explore 40+ interactive experiments across Physics, Chemistry, Biology,
-          and Mathematics. Control variables, watch simulations, and learn
-          science like never before.
+          Experiment with Physics, Chemistry, Biology, and Math through interactive simulations. Change what you want to test, watch what happens, and understand science by hands-on exploration.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a
@@ -371,23 +369,21 @@ export default function Home() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center mb-14 px-4"
+          className="w-full px-4 flex flex-col items-center justify-center mb-14"
         >
           {/* Title */}
-          <h2 className="text-3xl md:text-4xl font-bold relative inline-block mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold relative inline-block mb-10">
             Explore Experiments
             <span className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full" />
           </h2>
 
           {/* Subtitle */}
-          <p className="text-gray-400 max-w-xl mx-auto mb-10 text-base leading-relaxed">
-
+          <p className="text-gray-400 max-w-xl mb-12 text-base leading-relaxed text-center">
             Choose a subject or search for a specific experiment. Each one is fully interactive with real-time 3D controls.
-
           </p>
 
           {/* Search */}
-          <div className="max-w-md mx-auto mb-8 relative">
+          <div className="max-w-md w-full mb-12 relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500" size={18} />
             <input
               type="text"
@@ -407,7 +403,7 @@ export default function Home() {
           </div>
 
           {/* Category filters */}
-          <div className="flex gap-3 justify-center flex-wrap pb-2 mb-4">
+          <div className="flex gap-3 justify-center flex-wrap pb-2 mb-6">
             <button
               onClick={() => {
                 setActiveCategory("all");
@@ -470,7 +466,7 @@ export default function Home() {
           </div>
 
           {/* Difficulty filters */}
-          <div className="flex gap-2 justify-center flex-wrap mt-3 mb-2">
+          <div className="flex gap-2 justify-center flex-wrap mt-6 mb-2">
             {["Beginner", "Intermediate", "Advanced"].map((diff) => (
               <button
                 key={diff}

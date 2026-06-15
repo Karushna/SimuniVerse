@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to ScienceLab 3D are documented in this file.
+All notable changes to Simuni Verse are documented in this file.
 
 ## [1.0.0] - 2025-06-05
 

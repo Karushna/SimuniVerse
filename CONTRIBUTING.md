@@ -17,7 +17,7 @@ Whether you want to add a new experiment, fix a bug, improve the UI, or enhance 
 
 ```bash
 git clone https://github.com/Karushna/SimuniVerse.git
-cd sciencelab3d
+cd SimuniVerse
 npm install
 npm run dev
 ```
@@ -64,7 +64,7 @@ git push origin feature/my-new-experiment
 
 ## 🔬 Adding a New Experiment
 
-To add a new experiment to ScienceLab 3D:
+To add a new experiment to Simuni Verse:
 
 1. **Add experiment metadata** in `src/data/experiments.ts`:
    ```ts
