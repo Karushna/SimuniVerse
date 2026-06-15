@@ -371,15 +371,19 @@ export default function Home() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="max-w-7xl mx-auto px-4 mb-12"
+          className="text-center mb-14 px-4"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center relative inline-block w-full">
+          {/* Title */}
+          <h2 className="text-3xl md:text-4xl font-bold relative inline-block mb-6">
             Explore Experiments
             <span className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full" />
           </h2>
-          <p className="text-gray-400 text-center mb-8 max-w-xl mx-auto mt-4">
-            Choose a subject or search for a specific experiment. Each one is
-            fully interactive with real-time 3D controls.
+
+          {/* Subtitle */}
+          <p className="text-gray-400 max-w-xl mx-auto mb-10 text-base leading-relaxed">
+
+            Choose a subject or search for a specific experiment. Each one is fully interactive with real-time 3D controls.
+
           </p>
 
           {/* Search */}
@@ -403,7 +407,7 @@ export default function Home() {
           </div>
 
           {/* Category filters */}
-          <div className="flex gap-3 justify-start md:justify-center overflow-x-auto pb-2 px-4 -mx-4 md:mx-0 md:px-0 scrollbar-hide">
+          <div className="flex gap-3 justify-center flex-wrap pb-2 mb-4">
             <button
               onClick={() => {
                 setActiveCategory("all");
@@ -466,12 +470,12 @@ export default function Home() {
           </div>
 
           {/* Difficulty filters */}
-          <div className="flex gap-2 justify-center flex-wrap mb-8">
+          <div className="flex gap-2 justify-center flex-wrap mt-3 mb-2">
             {["Beginner", "Intermediate", "Advanced"].map((diff) => (
               <button
                 key={diff}
                 onClick={() => setSearch(search ? `${search} ${diff}` : diff)}
-                className="px-4 py-2 glass rounded-full text-sm text-gray-400 hover:text-white transition-colors"
+                className="px-4 py-1.5 glass rounded-full text-xs text-gray-400 hover:text-white transition-colors"
               >
                 {diff}
               </button>
