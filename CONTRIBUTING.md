@@ -1,6 +1,6 @@
-# Contributing to ScienceLab 3D
+# Contributing to Simuni Verse
 
-Thank you for your interest in contributing to **ScienceLab 3D**! 🎉
+Thank you for your interest in contributing to **Simuni Verse**! 🎉
 
 Whether you want to add a new experiment, fix a bug, improve the UI, or enhance SEO/performance — all contributions are welcome.
 
@@ -16,7 +16,7 @@ Whether you want to add a new experiment, fix a bug, improve the UI, or enhance 
 ### Setup
 
 ```bash
-git clone https://github.com/rudra496/sciencelab3d.git
+git clone https://github.com/Karushna/SimuniVerse.git
 cd sciencelab3d
 npm install
 npm run dev
@@ -75,7 +75,7 @@ To add a new experiment to ScienceLab 3D:
      difficulty: "Beginner", // Beginner | Intermediate | Advanced
      description: "A short description of the experiment.",
      icon: "🔬",
-     color: "#4f8fff",
+     color: "#ff4fd6",
      topics: ["Topic 1", "Topic 2", "Topic 3"],
    }
    ```
@@ -105,7 +105,7 @@ To add a new experiment to ScienceLab 3D:
 
 ## 🐛 Reporting Bugs
 
-Found a bug? Please [open an issue](https://github.com/rudra496/sciencelab3d/issues/new) with:
+Found a bug? Please [open an issue](https://github.com/Karushna/SimuniVerse/issues/new) with:
 - A clear description of the bug
 - Steps to reproduce it
 - Expected vs actual behavior
@@ -115,7 +115,7 @@ Found a bug? Please [open an issue](https://github.com/rudra496/sciencelab3d/iss
 
 ## 💡 Suggesting Features
 
-Have an idea? [Open a feature request](https://github.com/rudra496/sciencelab3d/issues/new) and describe:
+Have an idea? [Open a feature request](https://github.com/Karushna/SimuniVerse/issues/new) and describe:
 - What you'd like to see
 - Why it would be useful
 - Any implementation ideas
@@ -125,15 +125,6 @@ Have an idea? [Open a feature request](https://github.com/rudra496/sciencelab3d/
 ## 📜 Code of Conduct
 
 Be respectful, inclusive, and constructive. We welcome everyone regardless of experience level.
-
----
-
-## 👤 Contact
-
-- **Author:** [Rudra Sarker](https://rudra496.github.io/site)
-- **Email:** [rudrasarker125@gmail.com](mailto:rudrasarker125@gmail.com)
-- **LinkedIn:** [linkedin.com/in/rudrasarker](https://www.linkedin.com/in/rudrasarker)
-- **GitHub:** [github.com/rudra496](https://github.com/rudra496)
 
 ---
 

@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #0a0a1a;
-  --bg-secondary: #111128;
-  --bg-card: #1a1a3e;
-  --text-primary: #e8e8ff;
-  --text-secondary: #a0a0c8;
-  --accent-blue: #4f8fff;
-  --accent-purple: #8b5cf6;
-  --accent-cyan: #06d6a0;
+  --bg-primary: #12060e;
+  --bg-secondary: #1e0d16;
+  --bg-card: #2d1020;
+  --text-primary: #ffe8f2;
+  --text-secondary: #c8a0b4;
+  --accent-blue: #f472b6;
+  --accent-purple: #ec4899;
+  --accent-cyan: #fb7185;
   --accent-orange: #ff6b35;
   --accent-pink: #ec4899;
-  --glow-blue: 0 0 20px rgba(79, 143, 255, 0.3);
-  --glow-purple: 0 0 20px rgba(139, 92, 246, 0.3);
+  --glow-blue: 0 0 20px rgba(236, 72, 153, 0.3);
+  --glow-purple: 0 0 20px rgba(244, 63, 94, 0.3);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
@@ -23,13 +23,13 @@
 
 /* Light mode */
 .light {
-  --bg-primary: #f0f9ff;
-  --bg-secondary: #e0f2fe;
+  --bg-primary: #fff0f6;
+  --bg-secondary: #ffe0ee;
   --bg-card: #ffffff;
-  --text-primary: #1e3a5f;
-  --text-secondary: #4a7fa5;
-  --glow-blue: 0 0 20px rgba(56, 189, 248, 0.15);
-  --glow-purple: 0 0 20px rgba(34, 211, 238, 0.15);
+  --text-primary: #5f1e3a;
+  --text-secondary: #a54a7f;
+  --glow-blue: 0 0 20px rgba(236, 72, 153, 0.15);
+  --glow-purple: 0 0 20px rgba(244, 63, 94, 0.15);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -63,7 +63,7 @@ body {
 
 /* Focus ring */
 *:focus-visible {
-  outline: 2px solid #38bdf8;
+  outline: 2px solid #ec4899;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -76,7 +76,7 @@ body {
   background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: #38bdf8;
+  background: #ec4899;
   border-radius: 4px;
 }
 
@@ -92,21 +92,21 @@ body {
 /* Glow effects */
 .glow-blue { box-shadow: var(--glow-blue); }
 .glow-purple { box-shadow: var(--glow-purple); }
-.glow-cyan { box-shadow: 0 0 20px rgba(6, 214, 160, 0.3); }
+.glow-cyan { box-shadow: 0 0 20px rgba(251, 113, 133, 0.3); }
 
 /* Glass morphism - dark mode default */
 .glass {
-  background: rgba(26, 26, 62, 0.6);
+  background: rgba(62, 20, 40, 0.6);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 150, 200, 0.1);
 }
 
 /* Glass morphism - light mode */
 .light .glass {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 230, 242, 0.8);
   backdrop-filter: blur(16px) saturate(180%);
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(236, 72, 153, 0.12);
+  box-shadow: 0 1px 3px rgba(236, 72, 153, 0.05);
 }
 
 /* Canvas container */
@@ -137,10 +137,10 @@ canvas {
 /* Subtle pulse glow for primary CTA */
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(79, 143, 255, 0.25), 0 0 60px rgba(139, 92, 246, 0.1);
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.25), 0 0 60px rgba(244, 63, 94, 0.1);
   }
   50% {
-    box-shadow: 0 0 30px rgba(79, 143, 255, 0.35), 0 0 80px rgba(139, 92, 246, 0.15);
+    box-shadow: 0 0 30px rgba(236, 72, 153, 0.35), 0 0 80px rgba(244, 63, 94, 0.15);
   }
 }
 .animate-pulse-glow {
