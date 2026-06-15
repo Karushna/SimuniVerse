@@ -19,7 +19,7 @@
 
 **Live Demo: [(https://simuniverse.vercel.app/)](https://simuniverse.vercel.app/))**
 
-Experience the fully deployed **interactive 3D science lab** — featuring virtual science experiments for Physics, Chemistry, Biology, and Mathematics, accessible instantly in your browser on any device.
+Experience the fully deployed **interactive Simuni Verse** — featuring virtual science experiments for Physics, Chemistry, Biology, and Mathematics, accessible instantly in your browser on any device.
 
 ---
 
